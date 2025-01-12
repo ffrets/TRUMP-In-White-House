@@ -1,0 +1,84 @@
+header {
+  background-color: rgb(0, 39, 104);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side-header {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.trump-icon {
+  width: 200px;
+  margin: 0px;
+}
+
+.middle-side-header img {
+  margin: 5px;
+  transition: padding-bottom 0.2s;
+}
+
+.middle-side-header img:hover {
+  padding-bottom: 9px;
+}
+
+.middle-side-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-star {
+  width: 70px;
+  height: 70px;
+}
+
+.second-layer-star {
+  width: 55px;
+  height: 55px;
+}
+
+.last-layer-star {
+  width: 45px;
+  height: 45px;
+}
+
+.right-side-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.click-1, .click-2, .click-3 {
+  margin: 15px;
+}
+
+.right-side-header a {
+  display: flex;
+  align-items: center;
+}
+
+.right-side-header img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: padding-bottom 0.15s;
+}
+
+.right-side-header img:hover {
+  padding-bottom: 9px;
+}
